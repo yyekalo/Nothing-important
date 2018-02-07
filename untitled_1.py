@@ -39,8 +39,8 @@ GRAYSCALE_THRESHOLD = [(0, 60)]
 # to the roi near the bottom of the image and less to the next roi and so on.
 ROIS = [ # [ROI, weight]
         (0, 100, 160, 10, 0.1), # You'll need to tweak the weights for your app
-        (0,  50, 160, 10, 0.1), # depending on how your robot is setup.
-        (0,   20, 160, 20, 0.1)
+        (0,  50, 160, 10, 0.7), # depending on how your robot is setup.
+        (0,   20, 160, 20, 0.2)
        ]
 
 def maps(x):
