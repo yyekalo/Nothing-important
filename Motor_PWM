@@ -1,0 +1,10 @@
+# Untitled - By: yikealo - Sun Feb 4 2018
+
+from pyb import Pin, Timer
+
+
+
+while(True):
+    clock.tick()
+    img = sensor.snapshot()
+    print(clock.fps())
